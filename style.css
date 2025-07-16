@@ -1,24 +1,26 @@
 /* Tipografías */
 body {
   font-family: 'Cardo', serif;
-  background-color: #fefbf6; /* blanco hueso */
-  color: #2e2e2e;            /* gris oscuro */
+  background-color: #ffffff; /* fondo blanco puro */
+  color: #1a1a1a;            /* texto negro elegante */
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 /* Encabezado y navegación */
 header {
-  background-color: #e5dcc3; /* beige */
+  background-color: #ffffff; /* también blanco */
   padding: 2rem;
   text-align: center;
+  border-bottom: 1px solid #eee;
 }
 
 header h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
+  font-family: 'Cardo', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 1px;
   margin: 0;
 }
 
@@ -34,13 +36,15 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #2e2e2e;
-  font-weight: 600;
+  color: #1a1a1a;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #d8a900; /* amarillo pastel más fuerte al pasar */
+  color: #bfa300; /* dorado suave al pasar */
 }
 
 /* Contenido principal */
@@ -52,22 +56,25 @@ main {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-weight: 300;
   margin-bottom: 1rem;
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  font-weight: 300;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  background-color: #e5dcc3;
+  background-color: #ffffff;
   padding: 1rem;
   margin-top: 4rem;
   font-size: 0.9rem;
-  color: #444;
+  color: #888;
+  border-top: 1px solid #eee;
 }
 
 /* Responsive */
