@@ -1,0 +1,60 @@
+body {
+  font-family: 'Cardo', serif;
+  background-color: #fefbf6; /* blanco hueso */
+  color: #2e2e2e; /* gris oscuro */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #e5dcc3; /* beige */
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-weight: 600;
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.obra {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.obra img {
+  width: 200px;
+  border: 2px solid #f2e5a2; /* amarillo pastel */
+}
+
+footer {
+  text-align: center;
+  background-color: #e5dcc3;
+  padding: 1rem;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+}
