@@ -1,8 +1,8 @@
 /* Tipografías */
 body {
-  font-family: 'Cardo', serif;
-  background-color: #ffffff; /* fondo blanco puro */
-  color: #1a1a1a;            /* texto negro elegante */
+  font-family: 'DM Sans', sans-serif;
+  background-color: transparent; /* sin color de fondo */
+  color: #1a1a1a;
   margin: 0;
   padding: 0;
   line-height: 1.7;
@@ -10,14 +10,14 @@ body {
 
 /* Encabezado y navegación */
 header {
-  background-color: #ffffff; /* también blanco */
+  background-color: transparent;
   padding: 2rem;
   text-align: center;
   border-bottom: 1px solid #eee;
 }
 
 header h1 {
-  font-family: 'Cardo', serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 2.5rem;
   font-weight: 400;
   letter-spacing: 1px;
@@ -39,12 +39,12 @@ nav a {
   color: #1a1a1a;
   font-weight: 400;
   font-size: 1.1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #bfa300; /* dorado suave al pasar */
+  color: #bfa300;
 }
 
 /* Contenido principal */
@@ -55,9 +55,9 @@ main {
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 1rem;
 }
 
@@ -69,7 +69,7 @@ p {
 /* Footer */
 footer {
   text-align: center;
-  background-color: #ffffff;
+  background-color: transparent;
   padding: 1rem;
   margin-top: 4rem;
   font-size: 0.9rem;
