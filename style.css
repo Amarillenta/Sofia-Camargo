@@ -1,11 +1,14 @@
+/* Tipografías */
 body {
   font-family: 'Cardo', serif;
   background-color: #fefbf6; /* blanco hueso */
-  color: #2e2e2e; /* gris oscuro */
+  color: #2e2e2e;            /* gris oscuro */
   margin: 0;
   padding: 0;
+  line-height: 1.6;
 }
 
+/* Encabezado y navegación */
 header {
   background-color: #e5dcc3; /* beige */
   padding: 2rem;
@@ -14,8 +17,9 @@ header {
 
 header h1 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
   font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
 }
 
 nav ul {
@@ -23,38 +27,57 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2rem;
   margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
 nav a {
   text-decoration: none;
   color: #2e2e2e;
   font-weight: 600;
+  transition: color 0.3s ease;
 }
 
-section {
-  padding: 3rem 2rem;
+nav a:hover {
+  color: #d8a900; /* amarillo pastel más fuerte al pasar */
+}
+
+/* Contenido principal */
+main {
   max-width: 800px;
-  margin: auto;
+  margin: 4rem auto;
+  padding: 0 2rem;
 }
 
-.obra {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 2rem;
-  align-items: center;
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
 
-.obra img {
-  width: 200px;
-  border: 2px solid #f2e5a2; /* amarillo pastel */
+p {
+  font-size: 1.1rem;
 }
 
+/* Footer */
 footer {
   text-align: center;
   background-color: #e5dcc3;
   padding: 1rem;
   margin-top: 4rem;
   font-size: 0.9rem;
+  color: #444;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
 }
