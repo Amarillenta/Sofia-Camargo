@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sofía Camargo - Portafolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sofía Camargo</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#otras">Otras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenida</h2>
+    <p>Este es el portafolio de Sofía Camargo, artista visual.</p>
+  </section>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy una artista bogotana cuya obra e investigación se centran en el origen de las palabras, su existencia, significado y forma, en relación con la poética, los animales y la ficción...</p>
+  </section>
+
+  <section id="portafolio">
+    <h2>Portafolio</h2>
+    <div class="obra">
+      <img src="imagenes/obra1.jpg" alt="Obra 1">
+      <div class="info">
+        <h3>Título de la obra</h3>
+        <p>Técnica: Mixta<br>Año: 2023</p>
+      </div>
+    </div>
+    <!-- Puedes duplicar el bloque .obra para más obras -->
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: sofiacamargo@example.com</p>
+    <p>Instagram: @sofiacamargo.art</p>
+  </section>
+
+  <section id="otras">
+    <h2>Otras</h2>
+    <p>Bitácoras, textos, investigación y más procesos.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sofía Camargo</p>
+  </footer>
+</body>
+</html>
